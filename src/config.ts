@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/FNVKXUCDSX8AE_CAJK_M.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "https://pic1.imgdb.cn/item/68a096ab58cb8da5c828997b.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "/favicon/hyenamc.webp", // Path of the favicon, relative to the /public directory
+			src: "https://pic1.imgdb.cn/item/68a096ac58cb8da5c828997c.webp", // Path of the favicon, relative to the /public directory
 			//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 			//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		},
@@ -56,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/favicon/hyenamc.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "https://pic1.imgdb.cn/item/68a096ac58cb8da5c828997c.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "HyenaMC - 大白猪圈",
 	bio: "自由开放的公益Minecraft服务器",
 	links: [
