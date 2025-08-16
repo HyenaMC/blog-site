@@ -36,6 +36,6 @@
 
 公益社区的繁荣昌盛离不开全体贡献者和玩家的支持，谢谢大家！（如果你为我们贡献过内容但是被遗漏了，或者希望去除名字，请随时联系我们）
 
-本博客站基于开源的[Fuwari](https://github.com/saicaca/fuwari)框架，并托管于免费的[Netlify CDN](https://www.netlify.com)和[路过图床](https://imgse.com)以提供全球的高速访问。如果你对此有兴趣，可以访问相关Github仓库和官方网站来获取更多信息。
+本博客站基于开源的[Fuwari](https://github.com/saicaca/fuwari)框架，并托管于免费的[Netlify CDN](https://www.netlify.com)以提供全球的高速访问。如果你对此有兴趣，可以访问相关Github仓库和官方网站来获取更多信息。
 
 ::github{repo="saicaca/fuwari"}
