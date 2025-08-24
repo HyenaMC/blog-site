@@ -30,7 +30,7 @@
 
 在Github Desktop窗口上方的工具栏，点击Current Branch，点击New Branch，输入一个可以标志你自己，不会被混淆为其他人的名字（比如你的游戏ID），点击创建，确认Current Branch已经变成了你的名字。（如果你之前已经创建过自己的分支，直接选择，然后**点击右上角Fetch Origin**即可）
 
-![](C:\Users\kpAju\AppData\Roaming\marktext\images\2025-08-24-21-56-39-image.png)
+![](https://mc-img.teamhyena.org/88cd9a600ddc496bf6a4ebea0650aab8.webp)
 
 全程请注意这几个要点：
 
@@ -72,11 +72,11 @@ pnpm dev
 
 3. 点击Commit to <你的分支名字>（最好不要是main！）
 
-![](C:\Users\kpAju\AppData\Roaming\marktext\images\2025-08-24-21-59-12-image.png)
+![](https://mc-img.teamhyena.org/900eec638728050a3645e968a441e834.webp)
 
 然后开始上传你的更改：
 
-![](C:\Users\kpAju\AppData\Roaming\marktext\images\2025-08-24-21-59-53-image.png)
+![](https://mc-img.teamhyena.org/32c59f3fe67f60033e0be628e3408a62.webp)
 
 1. 点击窗口上方Push to Origin
 
@@ -86,7 +86,7 @@ pnpm dev
 
 4. 你会看到有很多圈在转，等待它们全部完成（变成绿勾），如果出现红叉，**不要合入**，确认你没有错误使用任何东西或破坏格式，实在不知道为什么就通知kpA来检查
 
-![](C:\Users\kpAju\AppData\Roaming\marktext\images\2025-08-24-22-01-25-image.png)
+![](https://mc-img.teamhyena.org/2fd78bde3186b1e9e741e478789ce4df.webp)
 
 最后，如果Netlify成功构建了预览页面，你可以点击Deploy Preview后面的链接检查你的更改是否真的如你所愿。
 
