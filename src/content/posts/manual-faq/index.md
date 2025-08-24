@@ -1,5 +1,5 @@
 ---
-title: 迎新公告兼玩家手册(v2025.08.17)
+title: 迎新公告兼玩家手册(v2025.08.24)
 published: 2025-08-16
 description: '这篇帖子将常驻官网的最上方，并随时进行更新以符合最新的情况。如果你刚刚加入我们，请务必仔细阅读它的全部内容，如果你是老朋友，那在遇到网络和纠纷等问题时也别忘了回来看看！'
 image: 'https://mc-img.teamhyena.org/a3d674c2628b364e63fc9ca309eafee7.webp'
@@ -14,7 +14,7 @@ pinned: true
 
 # 身份验证
 
-服务器使用基于[Blessing Skin Server](https://blessing.netlify.app)的皮肤站和[Yggdrasil API](https://github.com/bs-community/blessing-skin-plugins/blob/master/plugins/yggdrasil-connect/README.md)的外置登录系统，因此您不需要正版也可以享受等同正版的自动登录和皮肤管理。您可以使用[这个链接](https://account.teamhyena.org)或本站上方的导航栏来快速访问皮肤站并遵循其指引完成注册、登录、邮箱验证和皮肤配置。同时，服务器的其他玩家可能在皮肤库中分享了一些皮肤和披风，您在有**对方许可**的情况下也可以使用。
+服务器使用基于[Blessing Skin Server](https://blessing.netlify.app)的皮肤站和[Yggdrasil API](https://github.com/bs-community/blessing-skin-plugins/blob/master/plugins/yggdrasil-connect/README.md)的外置登录系统，因此您不需要正版也可以享受等同正版的自动登录和皮肤管理。您可以使用[这个链接](https://account.teamhyena.org)或本站上方的导航栏来快速访问皮肤站并遵循其指引完成注册、登录、邮箱验证和皮肤配置。同时，服务器的其他玩家可能在皮肤库中分享了一些皮肤和披风，您在**对方不反对**的情况下也可以使用。
 
 如果你发现打不开皮肤站，请使用导航栏中的[状态监测](https://status.teamhyena.org)站确认Skin Station的在线状态，如果服务器没有问题，请排除自身网络故障。
 
@@ -30,12 +30,47 @@ pinned: true
 
 服务器生存服为1.20.1 Fabric。由于改造程度较高，我们仅建议使用官方整合包（Lite Edition及以上）接入。
 
-:::caution
-官方Pocket Edition整合包仅可以接入插件服，而不保证MOD服的兼容性
+所有服务器官方整合包均**附带调优的JRE**、JVM启动参数和OTA更新信息，可以开箱即用并在服务端更新时自动拉取最新的模组和相关配置。我们强烈建议您使用附带的JRE启动客户端以获得最好的性能和兼容性。
+
+:::warning
+我们不对第三方渠道获取的整合包或您后期添加的MOD及配置负任何责任，请小心甄别外来资源的可靠性！
+
 :::
 
+### Hyena Modpack: Pocket Edition
+
+:::caution
+Pocket Edition整合包仅可以接入插件服（小游戏/RPG），而不保证MOD服的兼容性
+:::
+
+袖珍版整合包的压缩包大小约为180MB，被设计用于在空余资源紧张的机器上使用（1GB内存以内），尽可能在确保稳定性的前提下提高硬件利用率并保障最基本的游戏体验。其包含标准优化套件和若干常用QoL模组。有关更多信息和配置，请参阅整合包[最新的发布帖](../modpack-pe-10/)。
+
+如果您有在老式机器上的实际体验，请向我们反馈以帮助改进这个整合包！
+
+<img title="" src="https://mc-img.teamhyena.org/4d911b33a85f5f6f0f04da1626db8388.webp" alt="">
+
+[Hyena Modpack: Pocket Edition （便携版）下载](https://files.teamhyena.org/d/enzonix/ny/modpack/HyenaModpackPE.7z)
+
+[Hyena Modpack: Pocket Edition （自解压安装包）下载](https://files.teamhyena.org/d/enzonix/ny/modpack/HyenaModpackPE.exe)
+
+![](https://mc-img.teamhyena.org/f345d1fa9a281956c1582deb0217e7dd.webp)
+
+解压缩后，点击hmcl.exe即可启动客户端，可能会消耗数分钟的时间下载Minecraft本体和检查模组更新。
+
+:::tip
+如果出现“无法下载”等错误，除了排除网络问题，还请尝试用管理员权限启动HMCL启动器
+::: 
+
+### Hyena Modpack: Lite Edition
+
 :::note
-官方整合包和MOD生存服仍处于内测阶段，敬请期待！
+官方MOD整合包和生存服仍处于内测阶段，敬请期待！
+:::
+
+### Hyena Modpack: Ultimate Edition
+
+:::note
+官方MOD整合包和生存服仍处于内测阶段，敬请期待！
 :::
 
 # 连接到服务器
@@ -45,8 +80,6 @@ pinned: true
 :::important
 出于安全和性能保障的考虑，您**必须**使用皮肤站外置登录且验证邮箱才能登录服务器并获得完整的体验
 :::
-
-
 
 - TCPShield CDN（欧美）：
 
@@ -81,8 +114,6 @@ mc-cm.teamhyena.org
 :::note
 带星号（*）的节点为国际精选线路，为管理团队和群友出资捐助，每个月有较为严苛的流量限制，如果您通过其他线路可以获得稳定的连接，请优先使用普通节点
 :::
-
-
 
 <script src="https://giscus.app/client.js"
         data-repo="HyenaMC/blog-site-giscus"
