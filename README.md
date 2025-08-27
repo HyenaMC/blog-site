@@ -8,6 +8,12 @@
 
 关于博客框架的其他概况，还可以参照[这位大佬的文章](https://www.2x.nz/posts/fuwari/)。
 
+你必须提前在电脑上安装Node.JS、npm和pnpm，前两者通过这个[官方网站](https://pnpm.io/installation#using-npm)下载（注意要选择下面的msi安装包），后者在安装好npm后命令行执行下列命令安装。
+
+```powershell
+npm install -g pnpm@latest-10
+```
+
 ### 图片资源预备
 
 由于Netlify CDN基于流量计费，服务器现已启用基于Backblaze B2和Cloudflare Worker的独立图床系统，如果需要在文章中插入图片，请访问[OpenList](https://files.teamhyena.org/b2/img)进行查找，然后**对复制出来的图像链接进行重写：**
