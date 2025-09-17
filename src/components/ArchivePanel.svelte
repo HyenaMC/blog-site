@@ -62,26 +62,31 @@ onMount(async () => {
 		filteredPosts = filteredPosts.filter((post) => !post.data.category);
 	}
 
-	const grouped = filteredPosts.reduce(
-		(acc, post) => {
-			const year = post.data.published.getFullYear();
-			if (!acc[year]) {
-				acc[year] = [];
-			}
-			acc[year].push(post);
-			return acc;
-		},
-		{} as Record<number, Post[]>,
-	);
+    // Group by year (ignore pinned ordering inside archive; show pure chronological order)
+    const grouped = filteredPosts.reduce(
+        (acc, post) => {
+            const year = post.data.published.getFullYear();
+            if (!acc[year]) acc[year] = [];
+            acc[year].push(post);
+            return acc;
+        },
+        {} as Record<number, Post[]>,
+    );
 
-	const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
-		year: Number.parseInt(yearStr),
-		posts: grouped[Number.parseInt(yearStr)],
-	}));
+    const groupedPostsArray = Object.keys(grouped).map((yearStr) => {
+        const year = Number.parseInt(yearStr);
+        // Sort posts of the same year strictly by published date (newest first)
+        const posts = grouped[year].slice().sort((a, b) => {
+            const timeA = a.data.published.getTime();
+            const timeB = b.data.published.getTime();
+            return timeB - timeA;
+        });
+        return { year, posts };
+    });
 
-	groupedPostsArray.sort((a, b) => b.year - a.year);
+    groupedPostsArray.sort((a, b) => b.year - a.year);
 
-	groups = groupedPostsArray;
+    groups = groupedPostsArray;
 });
 </script>
 
