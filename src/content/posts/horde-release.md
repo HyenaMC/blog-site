@@ -11,7 +11,11 @@ pinned: false
 ---
 一款轻量、零折腾的 Velocity 聊天插件 —— Horde。
 
-Horde 提供全局与本地聊天、简洁可配的模板、基于权限的前缀，并尽量减少复杂度。下面是插件的概览、配置示例与用法说明。
+::github{repo="HyenaMC/Horde"}
+
+Horde 提供全局与本地聊天、简洁可配的模板、基于权限的前缀，并尽量减少复杂度。下面是插件的概览、配置示例与用法说明，欢迎大家点star收藏。
+
+除了Github仓库，您也可以在[Modrinth](https://modrinth.com/plugin/hordechat)上查看相关信息或下载使用！
 
 ## 功能
 
