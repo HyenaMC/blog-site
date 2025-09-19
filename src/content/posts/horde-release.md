@@ -3,7 +3,7 @@ title: 隆重发布服务器自用Velocity聊天插件Horde!
 published: 2025-09-15
 description: '一款轻量、零折腾的 Velocity 聊天插件，支持全局/本地聊天、模板与权限前缀，以MIT协议开源。'
 image: 'https://mc-img.teamhyena.org/hordeicon.webp'
-tags: ['公告', '插件']
+tags: ['插件']
 category: '公告'
 draft: false 
 lang: 'zh_CN'
